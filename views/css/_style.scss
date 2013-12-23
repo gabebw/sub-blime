@@ -1,0 +1,40 @@
+//************** GENERAL STUFF
+html {
+  background: url("/images/limes.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#container {
+  margin: 0 auto;
+  width: 800px;
+}
+
+//************** CONTENT
+
+#content {
+  font-size: 2.2em;
+  height: 400px;
+  margin-top: 100px;
+
+  .definition {
+    float: left;
+    height: 290px;
+    width: 360px;
+  }
+
+  .definition.right {
+    margin-left: 70px;
+  }
+}
+
+#footer {
+  font-size: 16px;
+  margin-top: 150px;
+}
