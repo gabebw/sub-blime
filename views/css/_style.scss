@@ -5,6 +5,9 @@ html {
 }
 
 body {
+  @include media($mobile) {
+    font-size: 12px;
+  }
   color: white;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 16px;
@@ -12,29 +15,26 @@ body {
 }
 
 #container {
+  @include outer-container;
   margin: 0 auto;
-  width: 800px;
 }
 
 //************** CONTENT
 
 #content {
+  @include span-columns($grid-columns);
+  @include media($mobile) {
+    margin-top: 0;
+  }
   font-size: 2.2em;
-  height: 400px;
   margin-top: 100px;
 
   .definition {
-    float: left;
-    height: 290px;
-    width: 360px;
-  }
-
-  .definition.right {
-    margin-left: 70px;
+    @include span-columns($grid-columns/2);
   }
 }
 
 #footer {
-  font-size: 16px;
-  margin-top: 150px;
+  bottom: 10px;
+  position: absolute;
 }
