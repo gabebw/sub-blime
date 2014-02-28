@@ -1,4 +1,5 @@
 //************** GENERAL STUFF
+
 html {
   background: url("/images/limes.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -37,4 +38,7 @@ body {
 #footer {
   bottom: 10px;
   position: absolute;
+  a {
+    color: white;
+  }
 }
