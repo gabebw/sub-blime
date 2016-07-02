@@ -1,0 +1,5 @@
+#!/bin/sh
+
+set -e
+
+scss --sourcemap=none scss/application.scss public/application.css
