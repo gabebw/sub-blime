@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  background: url("/images/limes.jpg") no-repeat center center fixed;
+  background-size: cover; }
+
+body {
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold; }
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 12px; } }
+
+#container {
+  max-width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto; }
+  #container::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+#content {
+  float: left;
+  display: block;
+  margin-right: 5.26316%;
+  width: 100%;
+  font-size: 2.2em;
+  margin-top: 100px; }
+  #content:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    #content {
+      margin-top: 0; } }
+  #content .definition {
+    float: left;
+    display: block;
+    margin-right: 5.26316%;
+    width: 47.36842%; }
+    #content .definition:last-child {
+      margin-right: 0; }
+
+#footer {
+  bottom: 10px;
+  position: absolute; }
+  #footer a {
+    color: white; }
