@@ -1,0 +1,3 @@
+#!/bin/sh
+
+scp -r public/* i:/nginx-data/blime
