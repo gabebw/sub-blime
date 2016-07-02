@@ -2,4 +2,8 @@
 
 ## Setup
 
-    git remote add heroku git@heroku.com:blime.git
+    bundle install
+
+## Build the site
+
+    bin/build
